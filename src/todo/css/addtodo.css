@@ -1,0 +1,43 @@
+.add_todo {
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.1);
+  padding: 15px 15px;
+  border-radius: 5px;
+  backdrop-filter: blur(4px);
+  margin-bottom: 10px;
+}
+
+.add_todo__input {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 8px 8px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  color: hsl(213, 26.8%, 83.9%);
+  margin-bottom: 10px;
+}
+
+.add_todo__input:focus {
+  outline: 0;
+}
+
+.add_todo__btn-con {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.add_todo__btn {
+  padding: 9px 8px;
+  width: 100%;
+  font-size: 19px;
+  background: hsl(221, 83.2%, 53.3%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.add_todo__btn:hover {
+  background: hsl(224, 76.3%, 48%);
+}

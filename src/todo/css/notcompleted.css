@@ -1,0 +1,30 @@
+.box {
+  height: 30%;
+  max-width: 100%;
+  overflow-y: scroll;
+}
+h3 {
+  margin: 5px;
+  color: hsl(210, 40%, 96.1%);
+}
+.listitems {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.text {
+  width: 80%;
+  max-width: 80%;
+  text-overflow: hidden;
+}
+
+button {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 3px;
+  background: red;
+  color: #fff;
+}

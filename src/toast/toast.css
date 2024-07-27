@@ -1,0 +1,35 @@
+.toast {
+    padding: 8px 16px;
+    margin: 8px;
+    color: #fff;
+    opacity: 0.9;
+    transition: opacity 0.3s ease-in;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    border-radius: 5px;
+}
+
+.toast-success {
+    background: #28a745;
+}
+
+.toast-info {
+    background: #17a2a8;
+}
+
+.toast-error {
+    background: #dc3545;
+}
+
+.toast-warning {
+    background: #ffc107;
+}
+
+.close-toast-btn {
+    background: none;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+}

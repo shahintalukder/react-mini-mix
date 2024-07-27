@@ -1,0 +1,13 @@
+.listitems {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: rgba(255,255,255,0.1);
+  margin-bottom: 5px;
+  padding: 10px 5px;
+}
+
+.listitems span {
+  color: #fff;
+}

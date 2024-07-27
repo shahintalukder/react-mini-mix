@@ -1,0 +1,9 @@
+.container {
+  background: hsl(221, 39.3%, 11%);
+  height: 100vh;
+  padding: 10px 20px;
+}
+
+.error {
+  background: hsl(0, 73.7%, 41.8%);
+}
